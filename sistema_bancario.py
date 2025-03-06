@@ -112,7 +112,7 @@ while True:
         nome = input("Nome: ")
         data_nascimento = input("Data de nascimento (DD-MM-AAAA): ")
         cpf = input("CPF (somente números): ")
-        endereco = input("Endereço: ")
+        endereco = input("Endereço (Logradouro, n° - Bairro - Cidade/Sigla, Estado): ")
         registrar_cliente(nome, data_nascimento, cpf, endereco)
 
     elif opcao == "2":
